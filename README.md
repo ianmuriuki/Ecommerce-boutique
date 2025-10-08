@@ -1,4 +1,4 @@
-
+V
 
 # Luxora Boutique
 ![alt text](image.png)
@@ -110,7 +110,7 @@ From the root directory:
 ```sh
 yarn install
 # or
-pnpm install
+npm install
 ```
 
 
@@ -134,13 +134,15 @@ CLOUDINARY_API_SECRET=your_api_secret
 - Start backend server:
 
 ```sh
-yarn dev --filter=server
+cd /app/server
+npm run dev
 ```
 
 - Start frontend app:
 
 ```sh
-yarn dev --filter=client
+cd  /apps/client
+npm run dev
 ```
 
 Frontend will be accessible at [http://localhost:5173](http://localhost:5173)
